@@ -1,15 +1,17 @@
 #pragma once
+
 class ZooAnimal
 {
 private:
-    char* name;
+    char const* name;
     int cageNumber;
     int weightDate;
     int weight;
 public:
     void Destroy(); // destroy function
-    char* reptName();
+    char const* reptName();
     int daysSinceLastWeighed(int today);
-    void create(char*, int, int, int); //1,1
+    void create(char const*, int, int, int); //1,1
 };
+
 

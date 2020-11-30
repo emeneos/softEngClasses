@@ -1,7 +1,7 @@
 #include "ZooAnimal.h"
 
 // Defining the constructor #1 - exercise 1
-void ZooAnimal::create(char* name, int cageNumber, int weightDate, int weight)
+void ZooAnimal::create(char const *name, int cageNumber, int weightDate, int weight)
 {
     this->name = name;
     this->weight = weight;
@@ -15,7 +15,8 @@ void ZooAnimal::Destroy()
 }
 
 // -------- member function to return the animal's name
-char* ZooAnimal::reptName()
+//exc1.3
+char const* ZooAnimal::reptName()
 {
     return name;
 }
