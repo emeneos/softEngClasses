@@ -39,3 +39,8 @@ int ZooAnimal::daysSinceLastWeighed(int today) //exercise 1.2
     return (thisday - startday);
 }
 
+//exc 2.2
+void ZooAnimal::changeWeightDate(int today)
+{
+    this->weightDate = today;
+}
