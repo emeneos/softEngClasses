@@ -44,3 +44,10 @@ void ZooAnimal::changeWeightDate(int today)
 {
     this->weightDate = today;
 }
+
+//exc 2.3
+
+void ZooAnimal::isMotherOf(ZooAnimal* mom)
+{
+    mother = mom;
+}

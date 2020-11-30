@@ -20,6 +20,9 @@ public:
     void reptWeight(scale which);
     inline int reptWeightDate();
 
+//code class#2.3
+    void isMotherOf(ZooAnimal*);
+
 
 };
 
