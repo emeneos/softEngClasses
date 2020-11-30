@@ -11,6 +11,10 @@ int main()
 
     std::cout << "This animal's name is " << bozo.reptName() << std::endl;
 
+    ////ex2.1
+    std::cout << "weightDate data member is: " << bozo.reptWeightDate() << std::endl;
+
+
     bozo.Destroy();
     return 0;
 }

@@ -8,7 +8,12 @@ void ZooAnimal::create(char const *name, int cageNumber, int weightDate, int wei
     this->cageNumber = cageNumber;
     this->weightDate = weightDate;
 }
+//exercise 2.1
 
+inline int ZooAnimal::reptWeightDate()
+{
+    return this->weightDate;
+}
 void ZooAnimal::Destroy()
 {
     delete[] name;
@@ -33,3 +38,4 @@ int ZooAnimal::daysSinceLastWeighed(int today) //exercise 1.2
         thisday += 360;
     return (thisday - startday);
 }
+
